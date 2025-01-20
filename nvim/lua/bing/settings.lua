@@ -18,7 +18,6 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 
 vim.opt.colorcolumn = "120"
-vim.cmd.colorscheme("rose-pine-moon")
 
 vim.api.nvim_create_autocmd({"InsertLeave"}, {
     pattern = "*",

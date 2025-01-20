@@ -18,3 +18,6 @@ local map = vim.api.nvim_set_keymap
 local opts = {}
 map('n', '<leader>/', 'gcc', opts)
 map('v', '<leader>/', 'gc', opts)
+
+vim.keymap.set({'n'}, '<C-h>', '<C-w>h')
+vim.keymap.set({'n'}, '<C-l>', '<C-w>l')
