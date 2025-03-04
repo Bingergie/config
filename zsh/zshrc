@@ -1,0 +1,20 @@
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+alias n="nvim"
+alias v="nvim"
+alias vi='nvim'
+# alias vim='nvim'
+alias ls="ls -aG"
+alias gotoschool="cd ~/Documents/School/Secondary\ School/High\ School/DP/"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source <(fzf --zsh)
+# export NVIM_LISTEN_ADDRESS="/tmp/nvimsocket"
+
+export LYEDITOR="nvr --remote +%(file)s | call cursor(%(line)s:%(column)s)"
