@@ -9,7 +9,7 @@ alias v="nvim"
 alias vi='nvim'
 # alias vim='nvim'
 alias ls="ls -aG"
-alias cdi="cd '/Users/study/Library/Mobile Documents/com~apple~CloudDocs' ; cd"
+alias cdi="cd ~ ; cd 'Library/Mobile Documents/com~apple~CloudDocs' ; cd"
 alias cds="cdi 'Documents/School/Secondary School/High School/DP' ; cd"
 
 export NVM_DIR="$HOME/.nvm"
