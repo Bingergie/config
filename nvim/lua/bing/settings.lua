@@ -19,7 +19,7 @@ vim.opt.scrolloff = 8
 
 vim.opt.colorcolumn = "120"
 
-vim.api.nvim_create_autocmd({"InsertLeave"}, {
-    pattern = "*",
-    command = "silent! write"
-})
+-- vim.api.nvim_create_autocmd({"InsertLeave"}, {
+--     pattern = "*",
+--     command = "silent! write"
+-- })

@@ -3,6 +3,10 @@ return {
     dependencies = {
         "jmbuhr/otter.nvim",
         "nvim-treesitter/nvim-treesitter",
+        {
+            "vim-pandoc/vim-pandoc-syntax", -- Enhanced Markdown syntax highlighting
+            ft = { "markdown", "quarto" },
+        }
     },
     config = function()
         require('quarto').setup {
@@ -28,5 +32,7 @@ return {
                 never_run = { 'yaml' },   -- filetypes which are never sent to a code runner
             },
         }
+
+        vim.keymap.set({"n", "v"}, "<leader>qp", ":QuartoPreview<CR>")
     end,
 }
