@@ -9,7 +9,8 @@ alias v="nvim"
 alias vi='nvim'
 # alias vim='nvim'
 alias ls="ls -aG"
-alias gotoschool="cd ~/Documents/School/Secondary\ School/High\ School/DP/"
+alias cdi="cd '/Users/study/Library/Mobile Documents/com~apple~CloudDocs' ; cd"
+alias cds="cdi 'Documents/School/Secondary School/High School/DP' ; cd"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
